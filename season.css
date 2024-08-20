@@ -1,0 +1,15 @@
+.season-container{
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    right: 0;
+    background-color: red;
+  }
+  body::before{
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(1, 2, 3, 0.7);
+    z-index: 10;
+  }
